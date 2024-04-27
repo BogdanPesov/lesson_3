@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+.main-header {
+	margin: 20px 0 20px;
+
+}
+
+.main-link {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	width: fit-content;
+}
+
+.main-title {
+	font-size: 50px;
+	color: red;
+
+}
+
+.main-flag {
+	margin-left: 20px;
+	width: 100px;
+	height: 70px;
+}
+
+#main-text__para {
+	color: aquamarine;
+}
+
+.main-text .main-text__paragraph {
+	color: blue;
+}
+
+.main-text>p {
+	color: purple;
+}
+
+.main-text {
+	p {
+		margin-bottom: 10px;
+	}
+}
+
+.main-text~p {
+	color: brown;
+}
+
+.main-header * {
+	color: wheat;
+}
+
+.main-text {
+	color: yellow;
+}
+
+.main-text+h2 {
+	font-size: 50px;
+	color: red;
+}
